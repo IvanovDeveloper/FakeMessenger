@@ -1,0 +1,39 @@
+/* 
+  en.strings
+  FakeMessanger
+
+  Created by Developer on 4/1/14.
+  Copyright (c) 2014 Spire. All rights reserved.
+*/
+
+/* TEXT */
+
+"Done" = "Done";
+"Settings" = "Settings";
+"OK" = "OK";
+"Yes" = "Yes";
+"Cancel" = "Cancel";
+"Enter name" = "Enter name";
+"Anonymous mode" = "Anonymous mode";
+"Normal Mode" = "Normal Mode";
+"Enter carrier" = "Enter carrier";
+"Are you sure you want to delete all?" = "Are you sure you want to delete all?";
+"Inbox" = "Inbox";
+"Date" = "Date";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+
+
+/* IMAGE */
+
+
+
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3401" systemVersion="13A603" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="DB_i" representedClassName="DB_i" syncable="YES">
+        <attribute name="bool_anonym" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="bool_inputMassege" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="bool_message_created" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="d_timestamp" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="data_image" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="data_image_original" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="f_bubble_h" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_bubble_w" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_bubble_x" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_bubble_y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_cell_h" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_image_view_h" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_image_view_w" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_image_view_x" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_image_view_y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_text_label_h" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_text_label_w" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="s_carrier_name" optional="YES" attributeType="String" defaultValueString="Carrier" syncable="YES"/>
+        <attribute name="s_recipient_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="s_text_message" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="s_type_bubble" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="s_type_message" optional="YES" attributeType="String" defaultValueString="i" syncable="YES"/>
+    </entity>
+    <entity name="DB_i7" representedClassName="DB_i7" syncable="YES">
+        <attribute name="bool_anonym" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="bool_inputMassege" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="bool_message_created" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="d_timestamp" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="data_image" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="data_image_original" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="f_bubble_h" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_bubble_w" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_bubble_x" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_bubble_y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_cell_h" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_image_view_h" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_image_view_w" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_image_view_x" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_image_view_y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_text_label_h" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_text_label_w" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="s_carrier_name" optional="YES" attributeType="String" defaultValueString="Carrier" syncable="YES"/>
+        <attribute name="s_recipient_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="s_text_message" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="s_type_bubble" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="s_type_message" optional="YES" attributeType="String" defaultValueString="i7" syncable="YES"/>
+    </entity>
+    <entity name="DB_vib" representedClassName="DB_vib" syncable="YES">
+        <attribute name="bool_anonym" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="bool_inputMassege" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="bool_message_created" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="d_timestamp" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="data_image" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="data_image_original" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="f_bubble_h" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_bubble_w" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_bubble_x" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_bubble_y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_cell_h" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_image_view_h" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_image_view_w" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_image_view_x" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_image_view_y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_text_label_h" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_text_label_w" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_time_h" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_time_w" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_time_x" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_time_y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="s_carrier_name" optional="YES" attributeType="String" defaultValueString="Carrier" syncable="YES"/>
+        <attribute name="s_recipient_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="s_text_message" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="s_type_bubble" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="s_type_message" optional="YES" attributeType="String" defaultValueString="VIB" syncable="YES"/>
+    </entity>
+    <entity name="DB_vk" representedClassName="DB_vk" syncable="YES">
+        <attribute name="bool_anonym" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="bool_inputMassege" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="bool_message_created" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="d_timestamp" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="data_image" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="data_image_original" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="f_bubble_h" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_bubble_w" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_bubble_x" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_bubble_y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_cell_h" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_image_view_h" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_image_view_w" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_image_view_x" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_image_view_y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_text_label_h" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_text_label_w" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_time_h" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_time_w" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_time_x" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_time_y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="s_carrier_name" optional="YES" attributeType="String" defaultValueString="Carrier" syncable="YES"/>
+        <attribute name="s_m_performer" optional="YES" attributeType="String" defaultValueString="Carrier" syncable="YES"/>
+        <attribute name="s_m_song_title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="s_recipient_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="s_text_message" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="s_type_bubble" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="s_type_message" optional="YES" attributeType="String" defaultValueString="VK" syncable="YES"/>
+    </entity>
+    <entity name="DB_vk7" representedClassName="DB_vk7" syncable="YES">
+        <attribute name="bool_anonym" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="bool_inputMassege" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="bool_message_created" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="d_timestamp" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="data_image" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="data_image_original" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="f_bubble_h" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_bubble_w" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_bubble_x" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_bubble_y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_cell_h" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_image_view_h" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_image_view_w" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_image_view_x" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_image_view_y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_text_label_h" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_text_label_w" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_time_h" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_time_w" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_time_x" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_time_y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="s_carrier_name" optional="YES" attributeType="String" defaultValueString="Carrier" syncable="YES"/>
+        <attribute name="s_m_performer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="s_m_song_title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="s_recipient_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="s_text_message" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="s_type_bubble" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="s_type_message" optional="YES" attributeType="String" defaultValueString="VK7" syncable="YES"/>
+    </entity>
+    <entity name="DB_wat" representedClassName="DB_wat" syncable="YES">
+        <attribute name="bool_anonym" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="bool_inputMassege" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="bool_message_created" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="d_timestamp" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="data_image" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="data_image_original" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="f_bubble_h" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_bubble_w" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_bubble_x" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_bubble_y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_cell_h" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_image_view_h" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_image_view_w" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_image_view_x" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_image_view_y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_text_label_h" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_text_label_w" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_time_h" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_time_w" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_time_x" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="f_time_y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="s_carrier_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="s_recipient_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="s_text_message" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="s_type_bubble" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="s_type_message" optional="YES" attributeType="String" defaultValueString="WAT" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="DB_i" positionX="169" positionY="192" width="128" height="373"/>
+        <element name="DB_i7" positionX="304" positionY="189" width="128" height="373"/>
+        <element name="DB_vib" positionX="441" positionY="189" width="128" height="433"/>
+        <element name="DB_vk" positionX="-110" positionY="189" width="128" height="463"/>
+        <element name="DB_vk7" positionX="27" positionY="191" width="128" height="463"/>
+        <element name="DB_wat" positionX="-263" positionY="189" width="128" height="433"/>
+    </elements>
+</model>

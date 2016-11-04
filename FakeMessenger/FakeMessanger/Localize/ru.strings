@@ -1,0 +1,41 @@
+/* 
+  ru.strings
+  FakeMessanger
+
+  Created by Developer on 4/1/14.
+  Copyright (c) 2014 Spire. All rights reserved.
+*/
+
+/* TEXT */
+
+"Done" = "Готово";
+"Settings" = "Настройки";
+"OK" = "Ввод";
+"Yes" = "Да";
+"Cancel" = "Отмена";
+"Enter name" = "Введите имя";
+"Anonymous mode" = "Анонимный режим";
+"Normal Mode" = "Обычный режим";
+"Enter carrier" = "Введите название мобильного оператора";
+"Are you sure you want to delete all?" = "Вы уверены что хотите удалить все?";
+"Inbox" = "Входящие";
+"Date" = "Дата";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+
+
+/* IMAGE */
+
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";

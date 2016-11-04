@@ -1,0 +1,74 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <CoreData/CoreData.h>
+    #import <QuartzCore/QuartzCore.h>
+    #import "FM_Defines.h"
+    #import "FM_StatusBarView.h"
+    #import "FM_Toolbar.h"
+    #import "AppDelegate.h"
+    #import "UIImage+Filtrr.h"
+    
+
+
+
+#define RGBa(r,g,b,a) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
+#define lang          [ [ NSLocale preferredLanguages ] objectAtIndex:0 ]
+#define localize(x)   NSLocalizedStringFromTable(x, lang, nil)
+
+CG_INLINE BOOL is_4_inch()
+{
+    if( 568.f == [ UIScreen mainScreen ].bounds.size.height )
+        return YES;
+    return NO;
+}
+
+CG_INLINE BOOL is_ios_7()
+{
+float systemVersion = [[[UIDevice currentDevice] systemVersion] floatValue];
+    if (systemVersion > 6.99)
+        return YES;
+    else
+        return NO;
+}
+
+CG_INLINE BOOL is_RU_lang()
+{
+    NSString * language = [[NSLocale preferredLanguages] objectAtIndex:0];
+    if ( [ language isEqualToString:@"ru" ] )
+        return YES;
+    else
+        return NO;
+}
+
+CG_INLINE BOOL is_RU()
+{
+    NSString * language = [[NSLocale preferredLanguages] objectAtIndex:0];
+    if ( [ language isEqualToString:@"ru" ] )
+        return YES;
+    else
+        return NO;
+}
+
+CG_INLINE BOOL is_i7()
+{
+    float systemVersion = [[[UIDevice currentDevice] systemVersion] floatValue];
+    if (systemVersion > 6.99)
+        return YES;
+    else
+        return NO;
+}
+
+#endif
